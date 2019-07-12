@@ -3,6 +3,8 @@ A code repository for "Selection against archaic DNA in human regulatory regions
 
 This repository contains everything you'll need to generate the plots in the main text of Telis, et al. 2019. If you need additional info, please contact Kelley Harris at harriske@uw.edu. Scripts are written to run with python 2.7.
 
+Many of these scripts depend on the file "enhancer_states.txt" that was downloaded from the RoadMap annotation database. Due to GitHub file size constraints, this file is provided in gzipped form. You will need to decompress it before running the upstream parts of this pipeline.
+
 All figures in the paper that summarize archaic variation (1B, 2, 3A, 3B, 4A, 4B, 5C, 5D) require you to first compile counts of Neanderthal and Denisovan variation in enhancers. Figures 1B, 2, 4A, and 4B utilize counts from specific to the Simons Genome Diversity Project (SGDP) populations, which are Westeurasia, Southasia, Eastasia, Centralasia, America, and Oceania. The summary counts you need for Figures 1, 2, and 3 are available in the repository in the following files:
 
   SPECIES_POPUL2_snps.txt (1)

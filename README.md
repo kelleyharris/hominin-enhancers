@@ -36,11 +36,17 @@ The plotting commands for generating the figures from the paper are as follows:
 Figure 1B:
 
   python count_1and2_neand_control_enhancers_exons.py america
+  
   python count_1and2_neand_control_enhancers_exons.py centralasia
+  
   python count_1and2_neand_control_enhancers_exons.py eastasia
-  python count_1and2_neand_control_enhancers_exons.py southasia   
+  
+  python count_1and2_neand_control_enhancers_exons.py southasia  
+  
   python count_1and2_neand_control_enhancers_exons.py westeurasia
+  
   python count_1and2_neand_control_enhancers_exons.py oceania
+  
   python plot_enhancers_exons_2only.py
 
 Figure 2:
@@ -48,15 +54,22 @@ Figure 2:
 
 Figure 3A:
   python count_neand_control_celltypes.py allpops 2 neandertal
+  
   python count_neand_control_celltypes.py allpops 2 denisova
+  
   python count_neand_control_exons_HARs.py 2 neandertal allpops
+  
   python count_neand_control_exons_HARs.py 2 denisova allpops
+  
   python plot_allpops_oddsNeand_v_oddsDenisovan.py
   
 Figure 3B:
   python count_enhancers_v_celltype_pleio_category.py allpops 2 neandertal
+  
   python count_enhancers_v_celltype_pleio_category.py allpops 2 denisova
+  
   python count_enhancers_onecelltype_plus_pleio_category.py
+  
   python plot_allpops_wbrainmuscle_pleio_v_oddsNeand.py
 
 Figure 4A:
